@@ -1,9 +1,9 @@
 window.SITE = { 
     status: {
         state: "offline",
-        mood: "explorative", 
-        doing: "coding this site",
-        where: "at school",
+        mood: "tired", 
+        doing: "resting",
+        where: "home",
     },
     nowPlaying: {
         song: "I'm Still Cheering For The 1980 U.S. Hockey Team",
