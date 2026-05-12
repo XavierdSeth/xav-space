@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> xav·space - blog </title>
+            <link rel = "stylesheet" href = "styles.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script defer src="site.js"></script>
+        </head>
+        <body>
+            <div class="wrap">
+
+                <div class="marquee"><span> welcome to xav·space · thanks for visiting · </span></div>
+                
+                <div class="logo">
+                    <h1><span class="a">xav</span><span class="b">·</span><span class="c">space</span></h1>
+                    <p> hardware · music · projects · thoughts </p>
+                </div>
+
+                <nav class="tabs">
+                    <a href="index.html"> home </a>
+                    <a href="about.html"> about </a>
+                    <a href="projects.html"> projects </a>
+                    <a href="blog.html"> blog </a>
+                </nav>
+                
+                <div class="grid">
+                    <main class="panel">
+
+                        <section><span class="panel-title">blog</span></section>
+                        <article>
+                            <p style="font-size:.78rem;color:var(--accent-deep);font-weight: 700;margin:0"> 12/05/2026 </p>
+                            <h3>xav·space</h3>
+                            <p> xav·space is my personal website where i can show off my projects or write about my experiences. </p>
+                            <p> this site was a good experience learning how to write css and incorporate it into html. </p>
+                            <p> i had set up the js so that i could easily adjust my status, mood, activity, location, time, and music. i was originally going to set it up to link to my spotify, however it was quite complex and i was told that my spotify api key would be publicly accessable on the site. instea i decidede to just put one of my faviourite songs on instead and make it so i can adjust it whenever. </p>
+                            <h4><strong>The Website has 4 pages:</strong></h4>
+                            <p><strong>Home:</strong>the home page contains a paragraph welcoming any visitors to the site, this page also includes a featured project of mine and the latest blog post.</p>
+                            <p><strong>About:</strong>the about page contains a paragraph about me and who i am, this page also includes a list of all my interests and a description of this website.</p>
+                            <p><strong>Projects:</strong>the project page contains panels of all the projects i have made with a status badge and a short description.</p>
+                            <p><strong>Blog:</strong>the blog page contains any blogs i want to post about anything, it has the date posted, the heading of the post, and the main text of the post.</p>
+                            <p>all of these pages have the same side bar which includes what i am currently doing (status, mood, doing, where, time), my current favourite song. and recent updates on my projects. at the bottom of the sidebar it contains, a link to the website, my personal email, and my github link.</p>
+                            <h4><strong>Colors:</strong></h4>
+                            <p>i enjoyed learning and using css on this site and i picked a cool blue color theme with the following colors:</p>
+                            <p><b style="color:var(--bg); -webkit-text-stroke: 2px #000000; paint-order: stroke fill;">Apline White</b> it is a very light, muted sky blue, nearly white.</p>
+                            <p><b style="color:var(--paper); -webkit-text-stroke: 2px #000000; paint-order: stroke fill;">Sport White</b> it is a very pale, bright, and slightly cool white, like a muted white with a subtle bluish or cyan undertone.</p>
+                            <p><b style="color:var(--ink)">San Marino</b> it is a medium dark shade of blue with a strong, deep character.</p>
+                            <p><b style="color:var(--ink-soft)">Violets Are Blue</b> it is a light, moderately saturated shade of blue-violet.</p>
+                            <p><b style="color:var(--accent)">Water Blue</b> it is characterized as a bright, airy and calming shade.</p>
+                            <p><b style="color:var(--accent-deep)">Cornflower Blue</b> it is a vibrant, medium-to-light blue that falls between sky blue and cobalt blue.</p>
+                            <p><b style="color:var(--rose)">Dusty Rose</b> it is a pale, rosy pink that pairs well with neutrals and muted blues.</p>
+                            <p><b style="color:var(--cream); -webkit-text-stroke: 2px #000000; paint-order: stroke fill;">Pale Cream</b> it is a soft, warm tint close to white.</p>
+                            <p><b style="color:var(--line)">Pale Blue</b> it is a very light, desaturated blue falling into the category of "soft" or "pale".</p>
+                        </article>
+                        <article>
+                            <p style="font-size:.78rem;color:var(--accent-deep);font-weight: 700;margin:0"> 11/05/2026 </p>
+                            <h3>Creating a Website</h3>
+                            <p> today i finished the work on my personal website. making this site i learnt alot about how to use html and css together to create a working intereactive website. this was a good learning experience and i am proud of my work. </p>
+                        </article>
+                    </main>
+
+                    <aside>
+
+                        <div class="panel">
+                            <span class="panel-title">★ currently</span>
+                            <dl style="margin:0">
+                                <div class="row"><dt>status:</dt><dd><span id="st-dot" class="dot dot-online"></span> <span id="st-state">online</span></dd></div>
+                                <div class="row"><dt>mood:</dt><dd id="st-mood">curious</dd></div>
+                                <div class="row"><dt>doing:</dt><dd id="st-doing">tinkering</dd></div>
+                                <div class="row"><dt>where:</dt><dd id="st-where">at the desk</dd></div>
+                                <div class="row"><dt>time:</dt><dd id="st-time">--:--:--</dd></div>
+                            </dl>
+                        </div>
+
+                        <div class="panel">
+                            <span class="panel-title">♪ now playing</span>
+                            <p style="margin:0">
+                                <em id="np-song">Example Song</em><br>
+                                by <strong id="np-artist">Example Artist</strong></br>
+                            </p>
+                            <div class="bar"><div></div></div>
+                        </div>
+
+                        <div class="panel">
+                             <span class="panel-title">✎ updates</span>
+                             <ul class="cute" style="font-size:.88rem">
+                                <li><strong style="color:var(--accent-deep)">09/05/2026</strong> - started on this website</li>
+                                <li><strong style="color:var(--accent-deep)">05/05/2026</strong> - submitted the devboard for review</li>
+                                <li><strong style="color:var(--accent-deep)">01/04/2026</strong> - keyboard got approved for funding</li>
+                             </ul>
+
+                        <div class="panel" style="text-align:center;font-size:.75rem;color:var(--ink-soft)">
+                            made with ♡ — xav 2026<br>
+                            <a href="index.html">website</a> · <a href="mailto:xavierseth27.1@gmail.com">email</a> · <a href="https://github.com/XavierdSeth">github</a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </body>
+    </html>
